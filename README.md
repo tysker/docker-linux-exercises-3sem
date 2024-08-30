@@ -8,13 +8,13 @@ that you have a MAC or Windows machine you can just use a docker container.
 Follow the instructions below to get started.
 
 1. clone `3sem-docker-linux-exercises` repository from GitHub
-2. open a bash terminal or a command prompt inside your docker_linux_environment folder
-3. run docker build -t linux/env .
-4. run docker run -it --name mylinuxenv linux/env
-5. now you should be inside the container. To get out, you just write exit
+2. open a bash terminal or a command prompt inside your 3sem-docker-linux-exercises` project
+3. run `docker build -t linux/env .
+4. run `docker run -it --name mylinuxenv linux/env`
+5. now you should be inside the container. To get out, you just prompt `exit`
 6. If you want to use the same container again, you just have to do the following:
-   - docker start mylinuxenv
-   - docker container exec -it mylinuxenv bash
+   - `docker start mylinuxenv`
+   - `docker container exec -it mylinuxenv bash`
 
 
 
